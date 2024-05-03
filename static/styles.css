@@ -1,0 +1,23 @@
+#login{
+  background-color: rgb(88, 239, 88);
+  padding:100px;
+
+}
+
+#main {
+    background-color: rgb(80, 231, 80);
+    height:1000px;
+  }
+
+#nav{
+background-color:#a9ffa9
+}
+
+#register{
+  background-color:#a9ffa9
+}
+
+#add_to_cart{
+  background-color: rgb(88, 239, 88);
+  padding:110px;
+}

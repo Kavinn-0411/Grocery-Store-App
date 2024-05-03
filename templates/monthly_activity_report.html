@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Monthly Activity Report !!!</h4>
+    {% for user in transactions %}
+    <p>Item:{{user.item_name}}  Quantity:{{user.item_name}}  Amount:{{user.amount}}</p>
+    <br>
+    {% else %}
+    <p>No purchases this month.. Keep shopping!!</p>
+    {% endfor %}
+    {% if total!=0 %}
+    <p>Total amount of purchase for the month: ₹{{total}}</p>
+    {% endif %}
+</body>
+</html>
